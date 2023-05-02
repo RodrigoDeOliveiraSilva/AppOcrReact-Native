@@ -1,0 +1,9 @@
+image: mreichelt/android:31
+
+tasks:
+  - name: Start Emulator
+    command: |
+      emulator @android_emulator -no-boot-anim -no-window -no-audio &
+      android-wait-for-emulator
+  - name: Build and Test
+    command: ./gradlew check assembleDebug
