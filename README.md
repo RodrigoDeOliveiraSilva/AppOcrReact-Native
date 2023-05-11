@@ -40,6 +40,8 @@ expo install @react-navigation/bottom-tabs
 ```
 
 
+## License
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 
 
